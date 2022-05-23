@@ -45,4 +45,7 @@ a {
     margin-right: 35px;
     
 }
+.nav__link:first-child {
+    border-bottom: 2px solid white;
+}
 
