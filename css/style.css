@@ -17,3 +17,16 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.header__wrapper {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-decoration: none;
+}
