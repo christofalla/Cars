@@ -33,6 +33,13 @@ a {
 
 }
 
+.header__block {
+    width: 20%;
+}
+
+.header__block:last-child {
+    text-align: center;
+}
 
 .nav {
     color: white;
@@ -45,17 +52,31 @@ a {
     margin-right: 35px;
     
 }
+
+.nav__link:after {
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+}
+
 .nav__link:first-child {
     border-bottom: 2px solid white;
+}
+
+.header__lng {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .header__lng-link {
     color: white;
 }
 
+
 .ru {
     color: #B7B7B7;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 
