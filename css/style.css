@@ -50,7 +50,7 @@ a {
     color: white;
     font-weight: 600px;
     margin-right: 35px;
-    
+
 }
 
 .nav__link:after {
@@ -58,6 +58,9 @@ a {
     height: 2px;
     background-color: #fff;
     position: absolute;
+    top: 100%;
+    left: 0;
+    content: '';
 }
 
 .nav__link:first-child {
